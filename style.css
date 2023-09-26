@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 15px;
+    font-weight: bolder;
+}
+span{
+    color: rgb(246, 3, 52);
+}
+#home div a{
+    font-size: 20px;
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.row{
+    justify-content: space-evenly;
+
+}
+#destinations div a{
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: space-evenly;
+
+}
+#kyoto div a{
+    font-size: 12px;
+    text-decoration: none;
+    justify-content: space-evenly;
+
+}
+#tip div a{
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: black;
+
+}
+ /* #tip table{
+    align-items: center;
+    padding: 25px;
+    left: 500px;
+
+} */
+.contact{
+    /* background-image:url( https://live.staticflickr.com/3107/3290067035_2bf520e866_b.jpg); */
+    background-image: url(https://lp-cms-production.imgix.net/features/2015/01/meguro_sakura_tokyo-add68028345d.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+}
+.contact div{
+    margin-right: 100px;
+} 
+.overlay{
+    width: 600px;
+    position: absolute;
+    top: 6100px;
+    left: 100px;
+    background-color: white;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact input{
+    width: 250px;
+}
+.contact textarea{
+    width: 250px;
+}
+.contact button{
+    align-items: center;
+}
+ .foot{
+    height: 200px;
+}
+.foot p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
